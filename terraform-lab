@@ -265,7 +265,7 @@ Task 1: Using output feature of Terraform to get the IP Address of EC2 Instance
 ===============================================================================
 
 cd /home/ubuntu/
-wget files.cloudthat.training/devops/terraform-essentials/output-variable-lab-v0.13.5.tar.gz
+wget https://s3.ap-south-1.amazonaws.com/files.cloudthat.training/devops/terraform-essentials/output-variable-lab-v0.13.5.tar.gz
 tar -xvf output-variable-lab-v0.13.5.tar.gz
 cd output-variable-lab/
 ls
