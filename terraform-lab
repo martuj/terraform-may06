@@ -314,7 +314,7 @@ aws s3 ls
 Task 2: Configure Remote State
 ==============================
 cd /home/ubuntu/terraform-labs/
-wget files.cloudthat.training/devops/terraform-essentials/remote_state_lab.tar.gz
+wget https://s3.ap-south-1.amazonaws.com/files.cloudthat.training/devops/terraform-essentials/remote_state_lab.tar.gz
 tar -zxvf remote_state_lab.tar.gz
 cd remote-state-lab
 ls
@@ -374,7 +374,7 @@ Task 1: Launching VPC and creating subnets
 ==========================================
 
 cd /home/ubuntu/
-wget files.cloudthat.training/devops/terraform-essentials/lab_10_vpc_v0.13.tar.gz
+wget https://s3.ap-south-1.amazonaws.com/files.cloudthat.training/devops/terraform-essentials/lab_10_vpc_v0.13.tar.gz
 tar -xvf lab_10_vpc_v0.13.tar.gz
 
 cd lab_10_vpc/
@@ -554,7 +554,7 @@ Task 1: Create ASG
 -------------------
 cd /home/ubuntu/
 
-wget files.cloudthat.training/devops/terraform-essentials/lab_14_autoscaling.tar.gz
+wget https://s3.ap-south-1.amazonaws.com/files.cloudthat.training/devops/terraform-essentials/lab_14_autoscaling.tar.gz
 tar -zxvf lab_14_autoscaling.tar.gz
 cd lab_14_autoscaling/
 
@@ -601,7 +601,7 @@ Lab-7: Launching ELB with autoscaling
 ###################################
 cd /home/ubuntu/
 
-wget files.cloudthat.training/devops/terraform-essentials/lab_15_elb_with_autoscaling.tar.gz
+wget https://s3.ap-south-1.amazonaws.com/files.cloudthat.training/devops/terraform-essentials/lab_15_elb_with_autoscaling.tar.gz
 tar -zxvf lab_15_elb_with_autoscaling.tar.gz
 cd lab_15_elb_with_autoscaling/
 
@@ -649,7 +649,7 @@ Lab-8 : Creating a MySQL Database with RDS
 
 cd /home/ubuntu
 
-wget files.cloudthat.training/devops/terraform-essentials/lab_12_rds.tar.gz
+wget https://s3.ap-south-1.amazonaws.com/files.cloudthat.training/devops/terraform-essentials/lab_12_rds.tar.gz
 tar -zxvf lab_12_rds.tar.gz
 cd lab_12_rds
 
@@ -753,7 +753,7 @@ Lab 10 : Creating AWS resources using terraform modules
 cd /home/ubuntu/
 sudo apt install tree -y
 
-wget files.cloudthat.training/devops/terraform-essentials/terraform-modules.tar.gz
+wget https://s3.ap-south-1.amazonaws.com/files.cloudthat.training/devops/terraform-essentials/terraform-modules.tar.gz
 tar -xvf terraform-modules.tar.gz
 
 cd terraform-modules
