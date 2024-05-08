@@ -331,6 +331,7 @@ terraform {
   backend "s3" {
     bucket = "<Replace your s3 bucket name>"
     key    = "terraform/remotestate"
+    region = "us-east-2"
   }
 }
 
