@@ -745,7 +745,7 @@ vi iam.tf
 
 # group definition
 resource "aws_iam_group" "administrators" {
-  name = "administrators"
+  name = "admin"
 }
 
 resource "aws_iam_policy_attachment" "administrators-attach" {
