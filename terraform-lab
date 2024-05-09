@@ -740,7 +740,7 @@ terraform destroy
 ####################
 Lab-9: IAM
 #####################
-
+mkdir iam && cd iam
 vi iam.tf
 
 # group definition
